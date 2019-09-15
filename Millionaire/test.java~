@@ -1,0 +1,26 @@
+public class test{
+    public static void main(String[] args){
+	Class cs=new Class();
+	cs.i=1;
+	//System.out.printf("%d",cs.i);
+	int[] a=new int[2];
+
+	a[0]=1;
+	a[1]=2;
+
+	a = new int[3];
+
+	a[0]=3;
+	a[1]=4;
+	a[2]=5;
+
+	for(int i=0;i<a.length;i++){
+	    System.out.printf("%d",a[i]);
+	}
+	
+    }
+}
+
+class Class{
+    int i=0;
+}
